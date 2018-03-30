@@ -22,25 +22,18 @@
         android:layout_marginTop="10sp"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:id="@+id/l3"
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_marginTop="10sp">
 
-            <android.support.v7.widget.CardView
+            <GridView
+                android:id="@+id/grid_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10sp">
-
-                <GridView
-                    android:id="@+id/grid_view"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:numColumns="2"/>
-            </android.support.v7.widget.CardView>
-
-        </LinearLayout>
+                android:numColumns="2"
+                />
+        </android.support.v7.widget.CardView>
 
     </LinearLayout>
 

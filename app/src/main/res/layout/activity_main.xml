@@ -31,6 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
+                android:inputType="text"
                 android:padding="8dp"
                 android:selectAllOnFocus="true"
                 android:singleLine="true"
@@ -43,6 +44,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_margin="5dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
                 android:src="@drawable/ic_search_black_24dp" />
 
         </android.support.v7.widget.CardView>
